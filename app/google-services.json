@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "484041413973",
+    "firebase_url": "https://scienceforkids-5e13b.firebaseio.com",
+    "project_id": "scienceforkids-5e13b",
+    "storage_bucket": "scienceforkids-5e13b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484041413973:android:0d27c1db96cb13a3",
+        "android_client_info": {
+          "package_name": "com.example.senturk.gyk_proje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484041413973-d556hk6o11th12uj54ir6rrocd41jp33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.senturk.gyk_proje",
+            "certificate_hash": "a8cfa534066dac32a8007cf2e6d641ebbcb04124"
+          }
+        },
+        {
+          "client_id": "484041413973-9bvltjjq8nn7abrd6mk0dvnut9lj4ndi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC84wKSwgpKcTTQz1iFicXDD0trDE6IIdY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484041413973-9bvltjjq8nn7abrd6mk0dvnut9lj4ndi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

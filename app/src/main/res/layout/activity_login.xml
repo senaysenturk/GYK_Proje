@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.senturk.gyk_proje.LoginActivity"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/app_icon" />
+
+        <EditText
+            android:id="@+id/etMail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="E-mail adresini giriniz"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/etSifre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Şifre Giriniz"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btGiris"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:imeOptions="actionSend"
+            android:text="Giriş" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Hesabın mı yok? Hemen kaydol"
+            android:gravity="center"
+            android:textColor="@color/textColorPrimary"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:id="@+id/tvKayit"></TextView>
+    </LinearLayout>
+</LinearLayout>
+
